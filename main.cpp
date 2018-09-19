@@ -1,11 +1,11 @@
 #include <iostream>
 
-#include "fact.h"
+#include "pig.h"
 
 int main()
 {
-  int n;
-  n = fact(5);
-  std::cout << "fact 5 = " << n << std::endl;
+  string s;
+  s = piglatinify("hello");
+  std::cout << "hello = " << s << std::endl;
   return 0;
 }

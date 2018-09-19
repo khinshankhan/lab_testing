@@ -1,14 +1,11 @@
 
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-#include "fact.h"
+#include "pig.h"
 
-TEST_CASE("Base Cases"){
-  CHECK(fact(0)==1);
-  CHECK(fact(1)==1);
+TEST_CASE("Basic Cases"){
+  CHECK(piglatinify("hello") == "ellohay");
+  CHECK(piglatinify("eat") == "eatay");
 }
 
-TEST_CASE("BAD Input"){
-  CHECK(fact(-1)==-1);
-}
 
