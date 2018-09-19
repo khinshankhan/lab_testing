@@ -1,5 +1,6 @@
 #pragma once
 
-using namespace std;
+using std::cout;
+using std::string;
 
 string piglatinify(string s);
